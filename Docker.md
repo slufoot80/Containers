@@ -33,3 +33,51 @@ Image Creation, Management, and Registry
 - Managing Images in Your Private Repository
 - Container Lifecycles - Setting the Restart Policies
 
+Orchestration
+- State the Difference Between Running a Container and Running a Service
+- Demonstrate Steps to Lock (and Unlock) a Cluster
+- Extend the Instructions to Run Individual Containers into Running Services Under Swarm and Manipulate a Running Stack of Services
+- Increase and Decrease the Number of Replicas in a Service
+- Running Replicated vs. Global Services
+- Demonstrate the Usage of Templates with 'docker service create'
+- Apply Node Labels for Task Placement
+- Convert an Application Deployment into a Stack File Using a YAML Compose File with 'docker stack deploy'
+- Understanding the 'docker inspect' Output
+- Identify the Steps Needed to Troubleshoot a Service Not Deploying
+- How Dockerized Apps Communicate with Legacy Systems
+- Paraphrase the Importance of Quorum in a Swarm Cluster
+
+Storage and Volumes
+- State Which Graph Driver Should Be Used on Which OS
+- Summarize How an Image Is Composed of Multiple Layers on the Filesystem
+- Describe How Storage and Volumes Can Be Used Across Cluster Nodes for Persistent Storage
+- Identify the Steps You Would Take to Clean Up Unused Images (and Other Resources) On a File System (CLI)
+
+Networking
+- Create a Docker Bridge Network for a Developer to Use for Their Containers
+- Configure Docker for External DNS
+- Publish a Port So That an Application Is Accessible Externally and Identify the Port and IP It Is On
+- Deploy a Service on a Docker Overlay Network
+- Describe the Built In Network Drivers and Use Cases for Each and Detail the Difference Between Host and Ingress Network Port Publishing Mode
+- Troubleshoot Container and Engine Logs to Understand Connectivity Issues Between Containers
+- Understanding the Container Network Model
+- Understand and Describe the Traffic Types that Flow Between the Docker Engine, Registry and UCP Components
+
+Security
+- Describe the Process of Signing an Image and Enable Docker Content Trust
+- Demonstrate That an Image Passes a Security Scan
+- Identity Roles
+- Configure RBAC and Enable LDAP in UCP
+- Demonstrate Creation and Use of UCP Client Bundles and Protect the Docker Daemon With Certificates
+- Describe the Process to Use External Certificates with UCP and DTR
+- Describe Default Docker Swarm and Engine Security
+- Describe MTLS
+
+Hands On Labs
+
+- Installing Docker CE and Pulling Images for Container Utilization
+- Creating a Management Host and Registering a Swarm Node
+- Configure Swarm and Scale Services With Your Cluster
+- Working with the DeviceMapper Storage Driver
+- Configuring Containers to Use Host Storage Mounts
+
