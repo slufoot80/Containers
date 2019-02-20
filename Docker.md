@@ -15,7 +15,7 @@ Installation and Configuration
 - Create and Manage UCP Users and Teams
 - Namespaces and CGroups
 
-Image Creation, Management, and Registry (20% of Exam)
+Image Creation, Management, and Registry
 - Pull an Image from a Registry (Using Docker Pull and Docker Images)
 - Searching an Image Repository
 - Tag an Image
