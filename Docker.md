@@ -73,11 +73,27 @@ Security
 - Describe Default Docker Swarm and Engine Security
 - Describe MTLS
 
-Hands On Labs
+Hands On Labs:
 
 - Installing Docker CE and Pulling Images for Container Utilization
 - Creating a Management Host and Registering a Swarm Node
 - Configure Swarm and Scale Services With Your Cluster
 - Working with the DeviceMapper Storage Driver
 - Configuring Containers to Use Host Storage Mounts
+- Installing Docker Standard Edition and Configuring the Service to Start Automatically
+- Pulling a Docker Image from a Repository and Tagging It Locally
+- Creating a New Image from a Container
+- Managing Containers (Creating, Starting and Stopping)
+- Create a Swarm Cluster
+- Start a Service and Scale It Within Your Swarm
+- Demonstrate How Failure Affects Service Replicas in a Swarm
+- Reassign a Swarm Worker to Manager
+- Creating and Working With Volumes
+- Using External Volumes Within Your Containers
+- Creating a Bind Mount to Link Container Filesystem to Host Filesystem
+- Display Details About Your Containers and Control the Display of Output
+- Exposing Ports to Your Host System
+- Create a Docker Service on Your Swarm and Expose Service Ports to Each Host
+- Utilize External DNS With Your Containers
+- Create a New Bridge Network and Assign a Container To It
 
